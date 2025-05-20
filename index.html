@@ -88,18 +88,7 @@
   </footer>
 
   <script>
-    // Calculate age from DOB
-    const birthDate = new Date('2008-09-25');
-    const today = new Date();
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
-    }
-    document.getElementById("ageText").textContent = `👦 Age: ${age} years`;
-
-    // Current year for footer
-    document.getElementById("year").textContent = new Date().getFullYear();
+    
   </script>
 
 </body>
